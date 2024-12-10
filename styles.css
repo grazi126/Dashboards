@@ -1,0 +1,50 @@
+/* Estilo global para o corpo da página */
+body {
+    background-image: url('planodef2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center center; /* Centraliza a imagem */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Container principal que centraliza os elementos */
+.container {
+    text-align: center;
+}
+
+
+h1 {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+/* Estilo dos botões */
+.button {
+    display: block;
+    width: 250px;
+    padding: 15px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Efeito de hover nos botões */
+.button:hover {
+    background-color: #000000;
+
+
+}
